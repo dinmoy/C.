@@ -4,9 +4,11 @@ void draw_basic_square(int size) {
 	unsigned char b[7];
 	int i, j;
 
+	
 	for (i = 1; i < 7; i++)
 		b[i] = 0xa0 + i;
 	printf("%c%c", a, b[3]); //┌
+
 
 	for(i=0;i<size;i++)
 		printf("%c%c", a, b[1]); // ㅡ
@@ -28,7 +30,7 @@ void draw_basic_square(int size) {
 }
 void main() {
 	int n;
-	printf("사각형 그리기\n\n");
+	printf("사각형 그리기980\n\n");
 	printf("사각형의 세로길이 입력\n");
 	printf("입력하고 Enter>");
 	scanf("%d", &n);
